@@ -54,6 +54,25 @@
   --bs-body-bg: #fff;
 }
 
+
+#textoinicial{
+  color: #000;
+  margin-top: 5%;
+  text-align: justify;
+
+  background-color: rgba(0, 0, 0, .5);
+  font-size: xx-large;
+}
+
+#titulo{
+  font-size: xxx-large;
+  padding-top: 5%;
+}
+#caratula{
+  
+  padding-top: 5%;
+}
+
 .centrado {margin: auto;
   text-align: center;}
   .espacios {
@@ -77,9 +96,7 @@
 }
 
 
-#titulo{
-  padding-top: 8%;
-}
+
 
 body {
   background-image: url('../assets/240z.jpg');
