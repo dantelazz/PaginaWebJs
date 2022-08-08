@@ -55,18 +55,12 @@
 }
 
 
-@font-face {
-  font-family: speedFont;
-  src: url(/assets/Bad\ Coma.ttf);
-}
 
-#titulo{
-  font-family: speedFont;
-}
+
 
 #textoinicial{
   color: #000;
-  margin-top: 1%;
+  margin-top: 5%;
   text-align: justify;
 
   background-color: rgba(0, 0, 0, .5);
@@ -74,7 +68,12 @@
 }
 
 #titulo{
-  font-size: 7rem;
+
+  padding-top: 5%;
+  font-size: 5rem;
+}
+#caratula{
+  
   padding-top: 5%;
 }
 
