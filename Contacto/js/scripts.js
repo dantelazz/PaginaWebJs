@@ -12,3 +12,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+Swal.fire({
+    title: 'Bienvenido',
+    icon: 'info',
+
+  })
