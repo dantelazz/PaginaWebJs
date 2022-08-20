@@ -11,9 +11,17 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
 });
+// Funcion de Libreria Sweet Alert
 
-Swal.fire({
-    title: 'Bienvenido',
-    icon: 'info',
 
-  })
+document.getElementById("botonEnviar").addEventListener("click", event =>{
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Mensaje Enviado',
+        showConfirmButton: false,
+        timer: 800,
+        background:'black',
+      })
+
+})
