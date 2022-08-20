@@ -76,13 +76,35 @@
   }
 }
 
+#respuesta{
+  font-weight: bold;
+  font-size: x-large;
 
-#titulo{
-  padding-top: 8%;
 }
 
+#formularioRueda{
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+
+#Texto{
+ 
+  background-position: inherit;
+  font-weight: bold;
+
+}
+
+#tituloLiteral{
+  padding-bottom: 1%;
+  color: #000;
+}
+
+
 body {
-  background-image: url('../assets/240z.jpg');
+  background-image: url('/assets/autocalcu.jpg');
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);

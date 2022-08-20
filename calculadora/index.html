@@ -35,16 +35,22 @@
                     </div>
                 </nav>
                 <!-- Page content-->
+                <div id="Texto">
                 <div id="titulo" class="container-fluid "   >
+                    <div id="tituloLiteral">
                     <h1 class="pt-5 text-center">Calculadora</h1>
-                    <p id="textoinicial" class="text-center"> calcula el alto total que va a tener una rueda,
+                    </div>
+                    <p id="textoinicial" class="text-center"> Retorna el alto total que va a tener una rueda,
                         es decir la cubierta + la llanta, modifica las pulgadas a cms y los milimetros a cms para que al final este expresado en cms</p>
                 </div>
-                
-                <form id="formularioRueda">
-                    <div class="mb-3">
-                      <label for="ancho" class="form-label">Ancho</label>
-                      <input type="number" class="form-control" id="ancho">
+
+                <p id="respuesta" class="text-center"></p>
+
+                <div class="container-fluid">
+                <form id="formularioRueda" >
+                    <div class="mb-3 px-15"  >
+                      <label for="ancho" class="form-label" >Ancho</label>
+                      <input type="number"  class="form-control" id="ancho" >
                     </div>
                     <div class="mb-3">
                       <label for="perfil" class="form-label">Perfil</label>
@@ -54,10 +60,11 @@
                         <label for="rodado" class="form-label">Rodado</label>
                         <input type="number" class="form-control" id="rodado">
                     </div>
-                    <button type="button" onclick="calculaAltoTotalRueda();" class="btn btn-primary">Submit</button>
+                    <button type="button" onclick="calculaAltoTotalRueda();" class="btn btn-warning">Submit</button>
                   </form>
-
-                    <p id="respuesta"></p>
+                </div>
+            </div>
+                 
 
                     
     
