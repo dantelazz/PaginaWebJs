@@ -67,9 +67,11 @@
   font-size: xx-large;
 }
 
+
+
 #titulo{
   font-size: xxx-large;
-  padding-top: 5%;
+
 }
 #caratula{
   
@@ -11324,10 +11326,20 @@ textarea.form-control-lg {
   transition: margin 0.25s ease-out;
 }
 
+
+
 body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
+
+#Formulario{
+ margin-top: 5%;
+ margin-left: 20%;
+ text-align: center;
+
+
+}
 
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
