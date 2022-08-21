@@ -69,10 +69,7 @@
 
 
 
-#titulo{
-  font-size: xxx-large;
 
-}
 #caratula{
   
   padding-top: 5%;
@@ -104,7 +101,7 @@
 
 
 body {
-  background-image: url('../assets/240z.jpg');
+  background-image: url('/assets/wp7376915-hakosuka-wallpapers.jpg');
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -149,7 +146,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(2.5rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -11337,7 +11334,14 @@ body {
  margin-top: 5%;
  margin-left: 20%;
  text-align: center;
+ color: whitesmoke;
+ font-size: x-large;
 
+}
+
+#tituloC{
+  color: whitesmoke;
+ font-size: xx-large;
 
 }
 
