@@ -1,20 +1,24 @@
 [
 {
-    "autodromo":"Juan Manuel Fangio",
+    "nombre":"Juan Manuel Fangio",
     "ubicacion":"Balcarce",
     "fecha":1972,
     "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Aut%C3%B3dromo_Juan_Manuel_Fangio_de_Balcarce.svg/1024px-Aut%C3%B3dromo_Juan_Manuel_Fangio_de_Balcarce.svg.png"
 },
 {
 
-    "autodromo":"Luis Rubén Di Palma",
+    "nombre":"Luis Rubén Di Palma",
     "ubicacion":"Mar de Ajo",
     "fecha":1998,
     "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Aut%C3%B3dromo_de_Mar_de_Aj%C3%B3.svg/1024px-Aut%C3%B3dromo_de_Mar_de_Aj%C3%B3.svg.png"
 
+},
+{
+    "nombre":"Hermanos Emiliozzi",
+    "ubicacion":"Olavarria",
+    "fecha":1998,
+    "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Aut%C3%B3dromo_Hermanos_Emiliozzi.svg/250px-Aut%C3%B3dromo_Hermanos_Emiliozzi.svg.png"
 }
-
-
 
 
 
