@@ -60,7 +60,12 @@
   src: url(/assets/Bad\ Coma.ttf);
 }
 
-
+#botonesInicio{
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  
+}
 
 #textoinicial{
   color: #000;
