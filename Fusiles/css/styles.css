@@ -103,7 +103,7 @@
 
 
 body {
-  background-image: url('../assets/240z.jpg');
+  background-image: url('/assets/supra.jpg');
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);

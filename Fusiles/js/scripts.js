@@ -21,22 +21,26 @@ function cargarJSON() {
       return res.json();
     })
     .then(function (data) {
-      let html='';
-      data.forEach(function(circuito){
+      let html = "";
+      data.forEach(function (circuito) {
         html += `
-        <div class="card" style="width:20rem;">
-        <div class="card-body">
-        <img src="${circuito.imagen}" class="card-img-top" alt="...">
-        <h4 class="card-title">${circuito.nombre}</h4>
-        <h6 class="card-subtitle mb-2 text-muted">${circuito.ubicacion}</h6>
-        <h7 class="card-subtitle mb-2 text-muted">${circuito.fecha}</h7>
-        <p class="card-text">This card has no image but has subtitle and two links instead of button.</p>
-        <a href="#" class="card-link">Link 1</a>
-        </div>
-        </div>
+        
+        <div class="card text-center m-5">
+  <div class="card-header text-uppercase">
+  ${circuito.nombre}
+  </div>
+  <div class="card-body">
+  <img src="${circuito.imagen}" class="card-img-top" alt="...">
+    <p class="card-text">${circuito.ubicacion}</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    ${circuito.fecha}
+  </div>
+</div>
         `;
-      })
-      document.getElementById('resultados').innerHTML = html;
+      });
+      document.getElementById("resultados").innerHTML = html;
     });
 }
 
