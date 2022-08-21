@@ -60,9 +60,7 @@
   src: url(/assets/Bad\ Coma.ttf);
 }
 
-#titulo{
-  font-family: speedFont;
-}
+
 
 #textoinicial{
   color: #000;
@@ -77,8 +75,9 @@
 }
 
 #titulo{
-  font-size: 7rem;
+  font-size: 10rem;
   padding-top: 5%;
+  font-family: speedFont;
 }
 
 .centrado {margin: auto;

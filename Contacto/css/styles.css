@@ -136,14 +136,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
-h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
-}
-@media (min-width: 1200px) {
-  h1, .h1 {
-    font-size: 2.5rem;
-  }
-}
+
 
 h2, .h2 {
   font-size: calc(2.5rem + 0.9vw);
@@ -11331,7 +11324,7 @@ body {
 
 
 #Formulario{
- margin-top: 5%;
+ margin-top: 2%;
  margin-left: 20%;
  text-align: center;
  color: whitesmoke;
@@ -11341,7 +11334,7 @@ body {
 
 #tituloC{
   color: whitesmoke;
- font-size: xx-large;
+  font-size: 2.5rem;
 
 }
 
