@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', event => {
 document.getElementById("botonInfo").addEventListener("click", event =>{
 Swal.fire({
     title: 'Car Station',
-    text: 'Aqui encontraras informacion necesaria sobre autos Desde Medidas de ruedas hasta informacion sobre ellos',
+    text: 'Aqui encontraras informacion necesaria sobre autos Desde Medidas de ruedas hasta Pistas de Carreras',
     width: 600,
     padding: '3em',
     color: '#121214',
