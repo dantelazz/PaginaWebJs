@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   }
 });
 
-//Funcion para llamar los datos del json:
+//Funcion para llamar los datos del json y formar las cards
 
 function cargarJSON() {
   fetch("/assets/circuitos.json")
@@ -32,7 +32,7 @@ function cargarJSON() {
   <div class="card-body">
   <img src="${circuito.imagen}" class="card-img-top" alt="...">
     <p class="card-text">Ubicacion: ${circuito.ubicacion}</p>
-    <a href="#" class="btn btn-primary">Link</a>
+    <a href="${circuito.link}" class="btn btn-primary" target="_blank">+Info</a>
   </div>
   <div class="card-footer text-muted">
     ${circuito.fecha}

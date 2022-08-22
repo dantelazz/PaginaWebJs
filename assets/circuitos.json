@@ -2,12 +2,14 @@
     {
         "nombre":"Roberto Mouras",
         "ubicacion":"La Plata",
+        "link":"https://www.facebook.com/autodromomouras/",
         "fecha":1996,
         "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Aut%C3%B3dromo_Roberto_Jos%C3%A9_Mouras.svg/1024px-Aut%C3%B3dromo_Roberto_Jos%C3%A9_Mouras.svg.png"
     },
 {
     "nombre":"Juan Manuel Fangio",
     "ubicacion":"Balcarce",
+    "link":"https://www.facebook.com/autodromo.juanmanuelfangio/",
     "fecha":1972,
     "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Aut%C3%B3dromo_Juan_Manuel_Fangio_de_Balcarce.svg/1024px-Aut%C3%B3dromo_Juan_Manuel_Fangio_de_Balcarce.svg.png"
 },
@@ -15,6 +17,7 @@
 
     "nombre":"Luis Rubén Di Palma",
     "ubicacion":"Mar de Ajo",
+    "link":"https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Luis_Rub%C3%A9n_Di_Palma",
     "fecha":1998,
     "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Aut%C3%B3dromo_de_Mar_de_Aj%C3%B3.svg/1024px-Aut%C3%B3dromo_de_Mar_de_Aj%C3%B3.svg.png"
 
@@ -22,6 +25,7 @@
 {
     "nombre":"Hermanos Emiliozzi",
     "ubicacion":"Olavarria",
+    "link":"https://actc.org.ar/tc/circuitos/hermanos-emiliozzi-largo_22.html",
     "fecha":1998,
     "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Aut%C3%B3dromo_Hermanos_Emiliozzi.svg/250px-Aut%C3%B3dromo_Hermanos_Emiliozzi.svg.png"
 },
@@ -29,12 +33,14 @@
     "nombre":"Guillermo 'Yoyo' Maldonado ",
     "ubicacion":"9 de julio",
     "fecha":1970,
+    "link":"https://actc.org.ar/tcm/circuitos/ciudad-de-nueve-de-julio_15.html",
     "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Aut%C3%B3dromo_9_de_Julio.svg/300px-Aut%C3%B3dromo_9_de_Julio.svg.png"
 },
 {
     "nombre":"Autódromo José Muñiz",
     "ubicacion":"Río Gallegos",
     "fecha":1987,
+    "link":"https://actc.org.ar/tc/circuitos/jose-muniz-_28.html",
     "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Aut%C3%B3dromo_Jos%C3%A9_Mu%C3%B1iz_%28R%C3%ADo_Gallegos%29.svg/300px-Aut%C3%B3dromo_Jos%C3%A9_Mu%C3%B1iz_%28R%C3%ADo_Gallegos%29.svg.png"
 }
 
