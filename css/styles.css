@@ -79,11 +79,7 @@
   color: white;
 }
 
-#titulo{
-  font-size: 7rem;
-  padding-top: 5%;
-  font-family: speedFont;
-}
+
 
 .centrado {margin: auto;
   text-align: center;}
@@ -147,11 +143,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-family: speedFont;
+  font-size: calc(2rem + 1.5vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 7rem;
   }
 }
 
