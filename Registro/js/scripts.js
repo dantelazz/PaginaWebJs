@@ -24,11 +24,10 @@ Swal.fire({
     confirmButtonText: 'Si!',
     cancelButtonText: 'No'
     ///Para Cambiar el registro
-  }).then((result) => {
+}).then((result) => {
     if (result.isConfirmed) {
-     
     }
-  })
+})
 
   //Constante para Los formularios
 
