@@ -36,10 +36,10 @@ Swal.fire({
     color: '#121214',
     background: '#fff ',
     backdrop: `
-      rgba(0,0,0,0.9)
-      url("/assets/drift-cars.gif")
+    rgba(0,0,0,0.9)
+    url("/assets/drift-cars.gif")
     left
-      no-repeat
+    no-repeat
     `
-  })
+})
 })
