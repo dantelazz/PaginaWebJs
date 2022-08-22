@@ -11,3 +11,20 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
 });
+
+
+Swal.fire({
+    title: 'Tiene su auto registrado?',
+    text: "Debe tenerlo para seguir la reserva",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Si!',
+    cancelButtonText: 'No'
+    ///Para Cambiar el registro
+  }).then((result) => {
+    if (result.isConfirmed) {
+     
+    }
+  })
