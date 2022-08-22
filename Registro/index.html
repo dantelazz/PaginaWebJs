@@ -17,11 +17,9 @@
             <div class="border-end bg-white" id="sidebar-wrapper">
                 <div class="sidebar-heading border-bottom bg-light">Menu</div>
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/index.html">Inicio</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/Registro/index.html">Carreras</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/calculadora/index.html">Calculadora Ruedas</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/Fusiles/index.html">Circuitos</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/Contacto/index.html">Contacto</a>
-
                 </div>
             </div>
             <!-- Page content wrapper-->
@@ -29,55 +27,29 @@
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
                     <div class="container-fluid">
+                        <div id="Hamburgesa">
                         <button class="btn btn-dark" id="sidebarToggle" href="index.html" ><img src="/assets/list (1).svg"></button>
+                        </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         </div>
                     </div>
                 </nav>
                 <!-- Page content-->
-                <div id="Texto">
-                <div id="titulo" class="container-fluid "   >
-                    <div id="tituloLiteral">
-                    <h1 class="pt-5 text-center">Calculadora</h1>
-                    </div>
-                    <p id="textoinicial" class="text-center"> Retorna el alto total que va a tener una rueda,
-                        es decir la cubierta + la llanta, modifica las pulgadas a cms y los milimetros a cms para que al final este expresado en cms</p>
+                <div id="tituloC">
+                <h1>Registro</h1>
                 </div>
 
-                <p id="respuesta" class="text-center"></p>
+                
 
-                <div class="container-fluid">
-                <form id="formularioRueda" >
-                    <div class="mb-3 px-15"  >
-                      <label for="ancho" class="form-label" >Ancho</label>
-                      <input type="number"  class="form-control" id="ancho" >
-                    </div>
-                    <div class="mb-3">
-                      <label for="perfil" class="form-label">Perfil</label>
-                      <input type="number" class="form-control" id="perfil">
-                    </div>
-                    <div class="mb-3">
-                        <label for="rodado" class="form-label">Rodado</label>
-                        <input type="number" class="form-control" id="rodado">
-                    </div>
-                    <button type="button" onclick="calculaAltoTotalRueda();" class="btn btn-warning">Submit</button>
-                  </form>
-                </div>
             </div>
-                 
-
-                    
-    
-            </div>
-            
         </div>
-
-
-        
+        <!-- Sweet Alert-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
