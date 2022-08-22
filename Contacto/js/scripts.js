@@ -22,6 +22,6 @@ document.getElementById("botonEnviar").addEventListener("click", event =>{
         showConfirmButton: false,
         timer: 800,
         background:'black',
-      })
+})
 
 })

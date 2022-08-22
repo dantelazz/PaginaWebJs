@@ -30,15 +30,15 @@ window.addEventListener('DOMContentLoaded', event => {
 document.getElementById("botonInfo").addEventListener("click", event =>{
 Swal.fire({
     title: 'Car Station',
-    text: 'Aqui encontraras informacion necesaria sobre autos Desde Medidas de ruedas hasta Pistas de Carreras',
+    text: 'Aqui podras anotarte a que pista y que carrera competir entre otras cosas',
     width: 600,
     padding: '3em',
     color: '#121214',
-    background: '#fff url(/images/trees.png)',
+    background: '#fff ',
     backdrop: `
       rgba(0,0,0,0.9)
       url("/assets/drift-cars.gif")
-    top
+    left
       no-repeat
     `
   })
