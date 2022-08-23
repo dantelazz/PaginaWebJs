@@ -31,16 +31,23 @@ Swal.fire({
 
 
 
-let formularioSi = function(){
-    let html = "";
-    html += `
+// let formularioSi = function(){
+//     let html = "";
+//     html += `
     
-        `;
-        document.getElementById("Formularios").innerHTML = html;
-}
+//         `;
+//         document.getElementById("Formularios").innerHTML = html;
+// }
 
 
 formularioSi()
   // funcion para crear el formulario No acepta
 
+
+let autos={
+    marca:"",
+    modelo:"",
+    year:"",
+    potencia:"",
+}
 
