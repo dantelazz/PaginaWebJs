@@ -26,6 +26,10 @@ Swal.fire({
     ///Para Cambiar el registro
 }).then((result) => {
     if (result.isConfirmed) {
+        document.addEventListener("click", e => {
+
+
+        });
     }
 })
 
