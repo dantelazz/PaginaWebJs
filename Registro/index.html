@@ -58,7 +58,7 @@
                     Boton de Prueba
                 </button>
             </div>
-
+            <!-- Ventana modal-->
             <div class="modal" id="modal1" data-animation="slideInOutLeft">
                 <div class="modal-dialog">
                     <header class="modal-header">
@@ -68,14 +68,35 @@
                         </button>
                     </header>
                     <section class="modal-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus reprehenderit
-                            accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex nam similique dolorem ab
-                            perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+                        <form>
+                            <div class="form-group">
+                            <label for="InputEmail1">Email</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                            <label for="Marca">Marca</label>
+                            <input type="text" class="form-control" id="Marca">
+                            </div>
+                            <div class="form-group">
+                                <label for="Modelo">Modelo</label>
+                                <input type="text" class="form-control" id="Modelo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="year">Año</label>
+                                    <input type="number" class="form-control" id="year">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Potencia">Potencia</label>
+                                        <input type="number" class="form-control" id="Potencia" placeholder="Expresado en HP">
+                                        </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </section>
                     <footer class="modal-footer">
                     </footer>
                 </div>
             </div>
+            <!-- Ventana modal-->
         </div>
         <!-- Sweet Alert-->
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
