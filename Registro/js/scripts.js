@@ -30,14 +30,49 @@ Swal.fire({
 })
 
 
+//Animacion Ventana Modal
+const openEls = document.querySelectorAll("[data-open]");
+const closeEls = document.querySelectorAll("[data-close]");
+const isVisible = "is-visible";
 
-// let formularioSi = function(){
-//     let html = "";
-//     html += `
+for (const el of openEls) {
+  el.addEventListener("click", function() {
+    const modalId = this.dataset.open;
+    document.getElementById(modalId).classList.add(isVisible);
+  });
+}
+
+for (const el of closeEls) {
+  el.addEventListener("click", function() {
+    this.parentElement.parentElement.parentElement.classList.remove(isVisible);
+  });
+}
+
+document.addEventListener("click", e => {
+  if (e.target == document.querySelector(".modal.is-visible")) {
+    document.querySelector(".modal.is-visible").classList.remove(isVisible);
+  }
+});
+
+document.addEventListener("keyup", e => {
+  // Para cerrar con escape
+  if (e.key == "Escape" && document.querySelector(".modal.is-visible")) {
+    document.querySelector(".modal.is-visible").classList.remove(isVisible);
+  }
+});
+
+
+
+
+
+
+ let formularioSi = function(){
+     let html = "";
+     html += `
     
-//         `;
-//         document.getElementById("Formularios").innerHTML = html;
-// }
+        `;
+         document.getElementById("Formularios").innerHTML = html;
+}
 
 
 formularioSi()
@@ -50,4 +85,7 @@ let autos={
     year:"",
     potencia:"",
 }
+
+
+/// Ventana Modal
 
