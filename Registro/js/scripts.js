@@ -60,7 +60,7 @@ document.addEventListener("keyup", e => {
     document.querySelector(".modal.is-visible").classList.remove(isVisible);
   }
 });
-
+//Animacion Ventana Modal
 
 
 
