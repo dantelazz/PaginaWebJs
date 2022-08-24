@@ -36,16 +36,17 @@ let autos={
     email:""
 }
 
-console.log(autos.marca)
-let agregarDatos = function(){
-  autos.marca = document.getElementById("inputmarca").value
+function agregarDatos(){
+  let marca = document.getElementById("inputmarca");
+  let modelo = document.getElementById("inputmodelo");
+  let year = document.getElementById("inputyear");
+  let email = document.getElementById("email");
+  var miPersona=new Persona(nombre,edad,dni,profesion);
+  baseDatos.push(miPersona); 
+  alert("agregado");
 }
-agregarDatos();
-console.log(autos.marca)
 
-
-
-
+addButton.onclick=agregarDatos;
 
 /// Ventana Modal
 
