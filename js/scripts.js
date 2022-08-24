@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', event => {
 document.getElementById("botonInfo").addEventListener("click", event =>{
 Swal.fire({
     title: 'Car Station',
-    text: 'Aqui podras anotarte a que pista y que carrera competir entre otras cosas',
+    text: 'Aqui podras desde anotarte en ciurcuitos hasta encontrar herramientas extras para tu auto',
     width: 600,
     padding: '3em',
     color: '#121214',
