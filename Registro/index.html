@@ -52,58 +52,129 @@
             </div>
 
 
+            <div id="Formulario">
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5 mt-5 ">
+                        <form id="auto-form" name="auto-form"  method="POST">
+                            <!--Grid row-->
+                            <div class="row align-items-center">
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                        <label for="inputmodelo" class="">Marca de Auto</label>
+                                        <input type="text" id="inputmodelo" name="inputmodelo" class="form-control" />
 
-            <div class="btn-group">
-                <button type="button" class="open-modal" data-open="modal1">
-                    Boton de Prueba
-                </button>
-            </div>
-            <!-- Ventana modal-->
-            <div class="modal" id="modal1" data-animation="slideInOutLeft">
-                <div class="modal-dialog">
-                    <header class="modal-header">
-                        Registra tu Automovil:
-                        <button class="close-modal" aria-label="close modal" data-close>
-                            ✕
-                        </button>
-                    </header>
-                    <section class="modal-content">
-                        <form>
-                            <div class="form-group">
-                            <label for="InputEmail1">Email</label>
-                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group">
-                            <label for="Marca">Marca</label>
-                            <input type="text" class="form-control" id="Marca">
-                            </div>
-                            <div class="form-group">
-                                <label for="Modelo">Modelo</label>
-                                <input type="text" class="form-control" id="Modelo">
-                                </div>
-                                <div class="form-group">
-                                    <label for="year">Año</label>
-                                    <input type="number" class="form-control" id="year">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="Potencia">Potencia</label>
-                                        <input type="number" class="form-control" id="Potencia" placeholder="Expresado en HP">
-                                        </div>
-                            <button type="submit" class="btn btn-primary mt-1">Submit</button>
+                                </div>
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                        <label for="inputmodelo" class="">Modelo de Auto</label>
+                                        <input type="text" id="inputmodelo" name="inputmodelo" class="form-control" />
+
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                        <label for="inputyear" class="">Año</label>
+                                        <input type="number" id="inputyear" name="inputyear" class="form-control" />
+
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                        <label for="email" class="">Email</label>
+                                        <input type="text" id="email" name="email" class="form-control" />
+
+                                    </div>
+                                </div>
                         </form>
-                    </section>
-                    <footer class="modal-footer">
-                    </footer>
+                        <div class="text-center text-md-left mt-2">
+                            <a id="botonEnviar" class="btn btn-success">Enviar</a>
+                        </div>
+                                        <!--Segundo Formulario-->
+                        
+                        <form id="carrera-form" name="carrera-form"  method="POST">
+                            <!--Grid row-->
+                            <div class="row align-items-center mt-5 justify-content-center">
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                <div class="form-group">
+                                    <label for="inputPista">Pista</label>
+                                    <select class="form-control" id="inputPista">
+                                      <option>ROBERTO MOURAS</option>
+                                      <option>JUAN MANUEL FANGIO</option>
+                                      <option>LUIS RUBÉN DI PALMA</option>
+                                      <option>HERMANOS EMILIOZZI</option>
+                                      <option>GUILLERMO 'YOYO' MALDONADO</option>
+                                      <option>AUTÓDROMO JOSÉ MUÑIZ</option>
+                                    </select>
+                                  </div>
+                                </div>
+                            </div>
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                <div class="form-group">
+                                    <label for="inputCategoria">Categoria</label>
+                                    <select class="form-control" id="inputCategoria">
+                                      <option>A1</option>
+                                      <option>A2</option>
+                                      <option>A3</option>
+                                      <option>B1</option>
+                                      <option>B2</option>
+                                      <option>B3</option>
+                                    </select>
+                                  </div>
+                                </div>
+                            </div>
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                        <label for="inputFecha" class="">Fecha</label>
+                                        <input type="date" id="inputFecha" name="inputFecha" class="form-control" />
+
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <div class="col-md-3">
+                                    <div class="md-form mb-0">
+                                <div class="form-group">
+                                    <label for="inputHora">Hora</label>
+                                    <select class="form-control" id="inputHora">
+                                        <option>07:30Am</option>
+                                      <option>10:30Am</option>
+                                      <option>15:00Hs</option>
+                                      <option>20:00Hs</option>
+                                    
+                                    </select>
+                                  </div>
+                                </div>
+                            </div>
+                                
+                        </form>
+                        <div class="text-center text-md-left mt-2">
+                            <a id="botonEnviar" class="btn btn-success">Enviar</a>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <!-- Ventana modal-->
+            
+
+
         </div>
-        <!-- Sweet Alert-->
-        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+    </div>
+    <!-- Sweet Alert-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

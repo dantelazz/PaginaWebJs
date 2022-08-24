@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-//
+//Sweet Alert
 
 document.getElementById("botonInfo").addEventListener("click", event =>{
 Swal.fire({
