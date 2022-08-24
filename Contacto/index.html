@@ -1,185 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Car Station</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="/assets/car-front.svg">
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
 
-  </head>
-  <body>
-    <div class="d-flex" id="wrapper">
-      <!-- Sidebar-->
-      <div class="border-end bg-white" id="sidebar-wrapper">
-        <div class="sidebar-heading border-bottom bg-light">Menu</div>
-        <div class="list-group list-group-flush">
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="/index.html"
-            >Inicio</a
-          >
-          <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/Registro/index.html">Carreras</a>
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="/Fusiles/index.html"
-            >Circuitos</a
-          >
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="/calculadora/index.html"
-            >Calculadora Ruedas</a
-          >
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Car Station</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/assets/car-front.svg">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar-->
+    <div class="border-end bg-white" id="sidebar-wrapper">
+      <div class="sidebar-heading border-bottom bg-light">Menu</div>
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/index.html">Inicio</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/Registro/index.html">Carreras (Registro)</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="/Fusiles/index.html">Circuitos</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="/calculadora/index.html">Calculadora Ruedas</a>
       </div>
-      <!-- Page content wrapper-->
-      <div id="page-content-wrapper">
-        <!-- Top navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-          <div class="container-fluid">
-            <button class="btn btn-dark" id="sidebarToggle" href="index.html">
-              <img src="/assets/list (1).svg" />
-            </button>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            ></div>
-          </div>
-        </nav>
-        <!-- Page content-->
-        <!--Section: Contact v.2-->
-        <section class="mb-4">
-          <!--Section heading-->
-          <div id="tituloC">
-            <h1 class="h1-responsive font-weight-bold text-center my-4 p-3 pt-5">
-              Contacto
-            </h1>
-          </div>
+    </div>
+    <!-- Page content wrapper-->
+    <div id="page-content-wrapper">
+      <!-- Top navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <button class="btn btn-dark" id="sidebarToggle" href="index.html">
+            <img src="/assets/list (1).svg" />
+          </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        </div>
+      </nav>
+      <!-- Page content-->
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+        <!--Section heading-->
+        <div id="tituloC">
+          <h1 class="h1-responsive font-weight-bold text-center my-4 p-3 pt-5">
+            Contacto
+          </h1>
+        </div>
 
-          <div id="Formulario">
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-md-9 mb-md-0 mb-5 ">
-                <form
-                  id="contact-form"
-                  name="contact-form"
-                  action="mail.php"
-                  method="POST"
-                >
-                  <!--Grid row-->
-                  <div class="row align-items-center">
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                      <div class="md-form mb-0">
-                        <label for="name" class="">Nombre</label>
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          class="form-control" 
-                        />
-                        
-                      </div>
-                    </div>
-                    <!--Grid column-->
+        <div id="Formulario">
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5 ">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row align-items-center">
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <label for="name" class="">Nombre</label>
+                      <input type="text" id="name" name="name" class="form-control" />
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                      <div class="md-form mb-0">
-                        <label for="email" class="">Email</label>
-                        <input
-                          type="text"
-                          id="email"
-                          name="email"
-                          class="form-control"
-                        />
-                        
-                      </div>
-                    </div>
-                    <!--Grid column-->
-                  </div>
-                  <!--Grid row-->
-
-                  <!--Grid row-->
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="md-form mb-0">
-                        <label for="subject" class="">Titulo</label>
-                        <input
-                          type="text"
-                          id="subject"
-                          name="subject"
-                          class="form-control"
-                        />
-                        
-                      </div>
                     </div>
                   </div>
-                  <!--Grid row-->
+                  <!--Grid column-->
 
-                  <!--Grid row-->
-                  <div class="row">
-                    <!--Grid column-->
-                    <div class="col-md-12 mb-5">
-                      <div class="md-form">
-                        <label for="message">Mensaje</label>
-                        <textarea
-                          type="text"
-                          id="message"
-                          name="message"
-                          rows="2"
-                          class="form-control md-textarea"
-                        
-                        ></textarea>
-                       
-                      </div>
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <label for="email" class="">Email</label>
+                      <input type="text" id="email" name="email" class="form-control" />
+
                     </div>
                   </div>
-                  <!--Grid row-->
-                </form>
-
-                <div class="text-center text-md-left">
-                  <a id="botonEnviar"
-                    class="btn btn-success"
-                    >Enviar</a
-                  >
+                  <!--Grid column-->
                 </div>
-                <div class="status"></div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <label for="subject" class="">Titulo</label>
+                      <input type="text" id="subject" name="subject" class="form-control" />
+
+                    </div>
+                  </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12 mb-5">
+                    <div class="md-form">
+                      <label for="message">Mensaje</label>
+                      <textarea type="text" id="message" name="message" rows="2"
+                        class="form-control md-textarea"></textarea>
+
+                    </div>
+                  </div>
+                </div>
+                <!--Grid row-->
+              </form>
+
+              <div class="text-center text-md-left">
+                <a id="botonEnviar" class="btn btn-success">Enviar</a>
               </div>
+              <div class="status"></div>
             </div>
           </div>
+        </div>
 
-          
-        </section>
-        <!--Section: Contact v.2-->
-      </div>
 
-      <div id="TextoBajo">
-      </div>
-
+      </section>
+      <!--Section: Contact v.2-->
     </div>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-  </body>
+
+    <div id="TextoBajo">
+    </div>
+
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>

@@ -33,15 +33,15 @@ let autos={
     marca:"",
     modelo:"",
     year:"",
-    potencia:"12",
+    email:""
 }
 
-console.log(autos.potencia)
+console.log(autos.marca)
 let agregarDatos = function(){
-  autos.potencia = document.getElementById("Potencia").value
+  autos.marca = document.getElementById("inputmarca").value
 }
 agregarDatos();
-console.log(autos.potencia)
+console.log(autos.marca)
 
 
 
