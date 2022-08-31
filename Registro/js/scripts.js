@@ -36,16 +36,12 @@ let autos={
     email:""
 }
 
-console.log(autos.marca)
-let agregarDatos = function(){
-  autos.marca = document.getElementById("inputmarca").value
+let getdata = function(){
+
+    let marca = document.getElementById("inputmarca").value;
+    console.log(marca)
+
 }
-agregarDatos();
-console.log(autos.marca)
 
 
-
-
-
-/// Ventana Modal
-
+getdata();
