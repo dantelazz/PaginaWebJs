@@ -13,23 +13,24 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 // Codigo del Sweet Alert
+document.getElementById("confirmadoModal").addEventListener("click", event =>{
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Reserva Confirmada',
+        showConfirmButton: false,
+        timer: 800,
+        background:'black',
+})
 
-// Swal.fire({
-//     title: 'Tiene su auto registrado?',
-//     text: "Debe tenerlo para seguir la reserva",
-//     icon: 'warning',
-//     showCancelButton: true,
-//     confirmButtonColor: '#3085d6',
-//     cancelButtonColor: '#d33',
-//     confirmButtonText: 'Si!',
-//     cancelButtonText: 'No'
-//     ///Para Cambiar el registro
-// })
+})
+
     
 
 //Data guardada
-let autosGuardados = [];
-let formularioFinal = [];
+let autosGuardados = {};
+let formularioFinal = {};
+
 
 
 // Esta funcion guarda los datos del formulario en un objeto
@@ -51,9 +52,10 @@ let getdataPrimerSeccion= () => {
     let email = document.getElementById("inputemail").value;
     autos.email =email;
 
-    autosGuardados.push(autos)
+   autosGuardados = autos;
 }
 
+// Esta funcion guarda los datos del 2do formulario en un objeto
 let getdataSegundaSeccion = () => {
     let formulario = {
         pista:"",
@@ -74,20 +76,54 @@ formulario.fecha = fecha;
 let hora = document.getElementById("inputHora").value;
 formulario.hora = hora;
 
-formularioFinal.push(formulario)
+formularioFinal = formulario
+console.log(formularioFinal)
+
 }
 
-//Codigo del Sweet Alert
 
-// Swal.fire({
-//     title: 'Tiene su auto registrado?',
-//     text: "La pista es"+formularioFinal.pista,
-//     icon: 'warning',
-//     showCancelButton: true,
-//     confirmButtonColor: '#3085d6',
-//     cancelButtonColor: '#d33',
-//     confirmButtonText: 'Si!',
-//     cancelButtonText: 'No'
-//     ///Para Cambiar el registro
-// })
-    
+
+// Ventana modal
+var modal = document.getElementById("ventanaModal");
+
+// Botón que abre el modal
+var boton = document.getElementById("botonEnviar2");
+
+// Hace referencia al elemento <span> que tiene la X que cierra la ventana
+var span = document.getElementsByClassName("cerrar")[0];
+
+// Cuando el usuario hace click en el botón, se abre la ventana
+boton.addEventListener("click",function() {
+    document.getElementById('texto').innerHTML = 
+
+    "Marca: " + autosGuardados.marca + "<br/>"+
+    "Modelo: " + autosGuardados.modelo + "<br/>"+
+
+    "Pista: "+ formularioFinal.pista + "<br/>" +
+     "Categoria :" + formularioFinal.categoria+ "<br/>" +
+     "Fecha: "+ formularioFinal.fecha + "<br/>" +
+     "Hora: "+ formularioFinal.hora + "<br/>",
+
+
+
+  modal.style.display = "block";
+});
+
+// Si el usuario hace click en la x, la ventana se cierra
+span.addEventListener("click",function() {
+  modal.style.display = "none";
+});
+
+// Si el usuario hace click fuera de la ventana, se cierra.
+window.addEventListener("click",function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});
+
+let cerrarModal = () => {
+    addEventListener("click",function() {
+        modal.style.display = "none";
+      })
+
+}
