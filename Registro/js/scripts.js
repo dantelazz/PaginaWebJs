@@ -121,6 +121,18 @@ window.addEventListener("click",function(event) {
   }
 });
 
+function agregarDatos(){
+  let marca = document.getElementById("inputmarca");
+  let modelo = document.getElementById("inputmodelo");
+  let year = document.getElementById("inputyear");
+  let email = document.getElementById("email");
+  var miPersona=new Persona(nombre,edad,dni,profesion);
+  baseDatos.push(miPersona); 
+  alert("agregado");
+}
+
+addButton.onclick=agregarDatos;
+
 let cerrarModal = () => {
     addEventListener("click",function() {
         modal.style.display = "none";
