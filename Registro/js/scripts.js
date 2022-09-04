@@ -131,7 +131,7 @@ function agregarDatos(){
   alert("agregado");
 }
 
-addButton.onclick=agregarDatos;
+addButton.onclick= agregarDatos;
 
 let cerrarModal = () => {
     addEventListener("click",function() {
